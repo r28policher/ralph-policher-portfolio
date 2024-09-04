@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;;
+}
+
+:root{
+    --primary-color: #413620;
+    --secondary-color: #9C6615;
+    --tertiary-color: #ffffff;
+    --accent-color: #FFD791;
+}
+body{
+    background-color: #2E2F34;
+    font-weight: bold;
+    
+}
+ul {
+    list-style-type: none;
+  }
+nav div {
+    background-color: #252527;
+    
+}
+nav {
+    position: fixed !important;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    background-color: #2E2F34 !important;
+    
+    
+  }
+
+  .navbar-brand {
+    position: fixed;
+    color: var(--tertiary-color);
+    text-decoration: none;
+    left: 20px;
+    top: 20px;
+    font-size: 22px;
+  }
+  
+  .navbar-nav {
+    display: flex; 
+  }
+  
+  .nav-link {
+    color: var(--tertiary-color);
+    font-size: 22px;
+    text-decoration: none;
+
+  }
+    .navbar-collapse{
+        display: flex;
+        justify-content: end;
+    }
+    .nav-item{
+        padding: 0 50px;
+        height: 40px;
+        
+    }
+
+.navbar-toggler{
+    border: none;
+}
+.navbar-brand:hover,
+.nav-item a:hover{
+    color: var(--accent-color);
+    
+    
+}
+/* main */
+#home{
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+
+    
+}
+#home .row{
+    margin: 0 auto;
+    
+}
+
+    .home-text{
+        font-size: 3rem;
+        text-align: left;
+        padding-top: 90px;
+        
+    }
+    .home-text h1{
+        position: relative;
+        top: 200px;
+        left: 80px;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-color: #67676d;
+        font-size: 36px;
+        color: var(--accent-color) !important;      
+        pointer-events: none;
+        
+        
+    }
+    .background-img {
+        position: absolute;
+        overflow: hidden;
+        margin: 0;
+        left: 100px;
+        top: -40px;
+        
+    }
+    .background-img img{
+        width: 100%;
+        display: block;
+        z-index: 0;
+        
+
+    }
+    .message{
+        position: relative;
+        font-size: 20px;
+        top: 230px;
+        left: 80px;
+        
+    }
+
+
+
+
+#home div{
+    color: var(--tertiary-color);
+}
+#name{
+    color: var(--accent-color);
+}
+

@@ -1,0 +1,94 @@
+#projects{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+    width: 80%;
+    height: 90vh;
+}
+    #projects h1{
+        color: var(--accent-color);
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-color: #67676d;
+    }
+    #projects{
+        color: var(--tertiary-color);
+        font-weight:500;
+    }
+
+    .project_card{
+        padding: 20px;
+        position: relative;
+        float: left;
+        width: 40%;
+        background-color: var(--tertiary-color);
+        -webkit-box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.75);
+        box-shadow: -1px 0px 5px 3px rgba(0,0,0,0.75);
+        padding: 10px;
+    }
+
+    .project_card_2{
+        padding: 20px;
+        position: relative;
+        float: right;
+        width: 40%;
+        background-color: var(--tertiary-color);
+        -webkit-box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.75);
+        box-shadow: -1px 0px 5px 3px rgba(0,0,0,0.75);
+        padding: 10px;
+    }
+    .project_card_3{
+        padding: 20px;
+        position: relative;
+        float: left;
+        left: 450px;
+        top: 30px;
+        width: 40%;
+        background-color: var(--tertiary-color);
+        -webkit-box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.75);
+        box-shadow: -1px 0px 5px 3px rgba(0,0,0,0.75);
+        padding: 10px;
+    }
+    
+    
+    
+    
+        .card-project img{
+            /* margin: 20px; */
+            width: 100%;
+        }
+        .card-project figcaption{
+            color: var(--primary-color);
+            text-align: left;
+            font-weight: bold;
+        }
+        .card-project figcaption span{
+            font-weight: bolder;
+            
+        }
+        .card-project  .btn-check-out{
+            display: block;
+            border-radius: 0;
+            margin: 0 auto;
+            border: none;
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 10px;
+            padding: 5px 10px;
+            text-decoration: none;
+            width: 213px;
+            text-align: center;
+        }
+
+    
+        .row_projects p {
+            position: relative;
+            padding: 30px;
+
+        }

@@ -1,0 +1,91 @@
+#about{
+    position: relative;
+    text-align: center;
+    display: table;
+    clear: both;
+}
+
+.about-content {
+    padding-top: 60px;
+
+} 
+.btn-download-cv{
+    position: relative;
+    bottom: 150px;
+    Left: 350px;
+    font-size: 20px;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.image-container{
+    width: 100%;
+    position: relative;
+    right: 20px;
+    top: 140px;
+
+}
+    .image-container img{
+        width: 405px;
+        -webkit-box-shadow: -20px 5px 25px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: -20px 5px 25px -8x rgba(0,0,0,0.75);
+        box-shadow: -20px 5px 25px -8px rgba(0,0,0,0.75);;
+    }
+    .about-text{
+        text-align: justify;
+        position: relative;
+        top: 180px;        
+
+    }
+    .about-text h1{
+        position: relative;
+        bottom: 750px;
+        Left: 900px;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-color: #67676d;
+        color: var(--accent-color);
+        
+    }
+    .about-text p{
+        position: relative;
+        text-align: justify;
+        width: 950px;
+        bottom: 700px;
+        Left: 900px;
+        color: var(--tertiary-color);
+    }
+
+    .about-text .row{
+        position: relative;
+        text-align: justify;
+        bottom: 700px;
+        Left: 900px;
+        margin: 20px 0;
+        color: var(--accent-color) !important;
+    }
+    .label{
+        position: relative;
+        width: auto;
+        text-align: left;
+        bottom: 21px;
+        left: 180px;
+        color: var(--tertiary-color);
+    }
+    
+/* CERTIFICATION */
+.certificate{
+    position: relative;
+    display: flex;
+    text-align: justify;
+    bottom: 21px;
+    left: 180px;
+    color: var(--tertiary-color);
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+
+

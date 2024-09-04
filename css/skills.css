@@ -1,0 +1,222 @@
+#skills{
+    padding-top: 60px;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    position: relative;
+    bottom: 180px;
+}
+    
+    #skills h1{
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-color: #67676d;
+        font-size: 2em;
+        color: var(--accent-color) !important;      
+        pointer-events: none;
+    }
+    #skills p{
+        font-weight:500;
+        width: 950px;
+        color: var(--tertiary-color);
+        padding: 10px 0;
+        padding-bottom: 70px;
+
+    }
+
+    .software-skills{
+        position: relative;
+        right: 365px;
+        bottom: 30px;
+        font-style: italic;
+        text-decoration-color: #67676d;
+        font-size: 26px;
+        color: var(--accent-color) !important;      
+
+    }
+    .programming-skills{
+        position: relative;
+        left: 335px;
+        bottom: 70px;
+        font-style: italic;
+        text-decoration-color: #67676d;
+        font-size: 26px;
+        color: var(--accent-color) !important;      
+        
+    }
+   
+
+    .skill-text{
+        text-underline-offset: 10px;
+        text-decoration-color: #67676d;
+        font-size: 36px;
+        justify-content: space-between; 
+        color: var(--tertiary-color) !important;      
+    }
+    .skill-list div figure{
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: var(--tertiary-color);
+    }
+    
+      
+        .software-img {
+            position: relative;
+            width: 336px;
+            height: 216px;
+            bottom: 100px;
+        
+        }
+        .software-img img {
+            position: relative;
+            width: 336px;
+            height: 216px;
+        }
+
+/*SOFTWARE SKILLS BAR */
+ 
+ .softwareskill-bar{
+    list-style-type: none;
+    position: relative;
+    bottom: 60px;
+    right: 5px;
+    color: var(--tertiary-color);
+    text-align: left;
+    font-size: 13px;
+ }
+ .softwareskill-bar h2{
+    color: var(--accent-color);
+    font-style: italic;
+ }
+
+ .softwareskill-bar li {
+    margin: 20px 0;
+    padding: 1px;
+ }
+ 
+
+.bar{
+    width: 30%;
+    background: #353b48;
+    display: block;
+    height: 15px;
+    border: 1px solid rgba (0, 0, 0 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba (0,0,0, 0,24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25,1);
+}
+
+.bar :hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)
+}
+.bar span{
+    height: 20px;
+    float: left;
+    color: #413620;
+    background: linear-gradient(135deg, rgb(90, 75, 45)0%, rgb(238, 185, 94)100%);
+}
+
+.powerpoint{
+    width: 75%;
+    animation: powerpoint 3s;
+}
+.excel{
+    width: 50%;
+    animation: powerpoint 3s;
+}
+.word{
+    width: 100%;
+    animation: powerpoint 3s;
+}
+
+.photoshop{
+    width: 100%;
+    animation: powerpoint 3s;
+}
+.figma{
+    width: 50%;
+    animation: powerpoint 3s;
+}
+.cad{
+    width: 75%;
+    animation: powerpoint 3s;
+}
+
+
+/* PROGRAMMING SKILLS BAR */
+
+.programmingskill-bar{
+    list-style-type: none;
+    position: relative;
+    bottom: 500px;
+    right: 5px;
+    color: var(--tertiary-color);
+    text-align: right;
+    font-size: 13px;
+ }
+ .programmingskill-bar h2{
+    font-style: italic;
+ }
+
+ .programmingskill-bar li {
+    margin: 40px 0;
+    padding: 1px;
+ }
+ 
+ .bar2{
+    position: relative;
+    float: right;
+    width: 30%;
+    background: #353b48;
+    display: block;
+    height: 15px;
+    border: 1px solid rgba (0, 0, 0 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba (0,0,0, 0,24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25,1);
+}
+.bar2 :hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)
+}
+.bar2 span{                
+    height: 20px;
+    float: right;
+    color: #413620;
+    background: linear-gradient(135deg, rgb(238, 185, 94)0%, rgb(90, 75, 45)100%);
+}
+
+.html{
+    width: 75%;
+    animation: powerpoint 3s;
+}
+.css{
+    width: 50%;
+    animation: powerpoint 3s;
+}
+.java{
+    width: 75%;
+    animation: powerpoint 3s;
+}
+.vb-net{
+    width: 100%;
+    animation: powerpoint 3s;
+}
+.javascript{
+    width: 25%;
+    animation: powerpoint 3s;
+}
+
+.python{
+    width: 50%;
+    animation: powerpoint 3s;
+}
+
+
+
+
+
+
+
+ 
